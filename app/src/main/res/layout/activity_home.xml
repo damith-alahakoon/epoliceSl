@@ -62,5 +62,43 @@
             android:layout_marginTop="25dp"
             android:text="Login"
             app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/btn_wifi_nav"
+            style="?attr/actionModeStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="156dp"
+            android:layout_marginTop="25dp"
+            android:onClick="wifiNav"
+            android:text="Test Wifi"
+             />
+
+        <Button
+            android:id="@+id/btn_location_nav"
+            style="?attr/actionModeStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="156dp"
+            android:layout_marginTop="25dp"
+            android:onClick="locationNav"
+            android:text="Test Location"
+            />
+        <Button
+            android:id="@+id/btn_mobileData_nav"
+            style="?attr/actionModeStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="156dp"
+            android:layout_marginTop="25dp"
+            android:onClick="moblieDataNav"
+            android:text="Test MobileData"
+            />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

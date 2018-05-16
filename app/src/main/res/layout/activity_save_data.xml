@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="26dp">
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -31,6 +31,25 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="117dp"
             android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_object_req"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="182dp"
+            android:layout_marginStart="38dp"
+            android:text="Object Volly" />
+
+        <Button
+            android:id="@+id/btn_array_req"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/button"
+            android:layout_marginEnd="27dp"
+            android:text="Array Volly" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
